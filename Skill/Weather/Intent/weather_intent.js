@@ -1,7 +1,8 @@
 /**
  * Weather Intent
  */
-const Intent = require('../../../../src/Intent/intent');
+const Intent = girequire('src/Intent/intent');
+
 const Forecast = require('forecast');
 const Promise = require('promise');
 
