@@ -15,7 +15,7 @@ module.exports = class WeatherIntent extends Intent {
 
 		this.parameter('city', {
 			name: "City",
-			entity: "App.Common.Entity.City",
+			entity: "App.Basics.Entity.City",
 			required: false,
 			action: 'specified',
 			slotfill: true
